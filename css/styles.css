@@ -1,0 +1,48 @@
+body {
+  font-family: "Roboto" sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #243E2C;
+  font-family: "Roboto";
+}
+
+.navbar-brand {
+  font-family: "Roboto";
+}
+
+/* Title */
+#title {
+  background-color: #D6CEBD;
+}
+
+.btn {
+  background-color: #243E2C;
+}
+
+.container {
+  padding: 3% 15%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Roboto-Bold";
+  font-size: 3rem;
+}
+
+#features {
+  padding: 3% 15%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.cta {
+  background-color: #243E2C;
+  font-family: "Roboto-Bold";
+}
