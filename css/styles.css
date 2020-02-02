@@ -5,11 +5,19 @@ body {
 /* Navigation Bar */
 .navbar {
   background-color: #243E2C;
-  font-family: "Roboto";
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navbar-brand {
   font-family: "Roboto";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 12px;
+  font-size: 1.5rem;
 }
 
 /* Title */
@@ -21,6 +29,17 @@ body {
   background-color: #243E2C;
 }
 
+.btn:hover {
+  background-color: #D6CEBD;
+  color: #000000;
+}
+
+.button-icon{
+  padding-right: 3px;
+}
+
+/* Features */
+
 .container {
   padding: 3% 15%;
 }
@@ -30,8 +49,12 @@ body {
 }
 
 h1 {
-  font-family: "Roboto-Bold";
+  font-weight: bold;
   font-size: 3rem;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 #features {
@@ -40,6 +63,15 @@ h1 {
 
 .feature-box {
   text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #243E2C;
+  margin-bottom: 1rem;
 }
 
 .cta {
