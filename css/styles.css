@@ -53,6 +53,11 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 3 rem;
+
+}
+
 h3 {
   font-weight: bold;
 }
@@ -67,11 +72,30 @@ h3 {
 
 p {
   color: #8f8f8f;
+  font-size: 1.25rem;
 }
 
 .icon{
   color: #243E2C;
   margin-bottom: 1rem;
+}
+
+/* Testimonials Section */
+#testimonials{
+
+  text-align: center;
+  background-color: #D6CEBD;
+  color: #243E2C;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .cta {
